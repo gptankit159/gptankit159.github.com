@@ -1,0 +1,75 @@
+body{
+    background-color: burlywood;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.content{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.box{
+    border: 5px solid black;
+    background-color: chocolate;
+    border-radius: 20px;
+    height: 350px;
+    padding: 30px;
+}
+
+.btns{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#que{
+    font-size: 40px;
+}
+.ans{
+    font-size: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    min-width: 60px;
+    background-color: crimson;
+}
+
+#res{
+    font-size: 40px;
+    background-color: rgb(245, 29, 29);
+    border-radius: 10px;
+}
+#res:hover{
+    background-color: burlywood;
+}
+#anss{
+    position: absolute;
+    top: 30%;
+}
+#result{
+    position: relative;
+    top: 43%;
+    left: 32%;
+    text-align: center;
+    font-size: 40px;
+    border: solid black;
+    width: 35%;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.bt:hover {
+    background-color: #28e09a;
+}
+
+.def{
+    background-color: red;
+}
+
+.corr{
+    background-color: yellow;
+}
