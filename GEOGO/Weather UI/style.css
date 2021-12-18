@@ -1,0 +1,139 @@
+body * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container{
+    background-color: whitesmoke;
+    height: 88vh;
+    margin: 40px 240px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width: min-content;
+}
+.left , .leftt , .leftb{
+    display: flex;
+    flex-direction: column;
+    
+}
+i.fa{
+    background-color: pink;
+    font-size: 22px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 10px;
+    color: rgb(107, 107, 107);
+}
+.fa-cloud{
+    background-color: rgb(107, 107, 107) !important;
+    color: white !important;
+}
+
+.leftt{
+    position: absolute;
+    top: 20px;
+}
+.leftb{
+    position: absolute;
+    bottom: 20px;
+}
+.middle{
+    background-color: rgb(101, 20, 177);
+    height: auto;
+    width: 60%;
+    position: relative;
+    border-radius: 15px;
+    left: 55px;
+    margin: 8px;
+    padding: 16px 30px;
+}
+.right{
+    height: auto;
+    width: 32%;
+    background-color: blueviolet;
+    position: relative;
+    border-radius: 15px;
+    left: 55px;
+    margin: 8px;
+    padding: 30px 30px;
+    color: whitesmoke;
+}
+.inp{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    
+}
+.txt{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(209, 199, 199);
+}
+.txt1{
+    font-weight: 500;
+}
+.txt .fa-gear{
+    display: inline-block;
+    background-color: transparent !important;
+    color: rgb(209, 199, 199) !important;
+    text-align: right;
+}
+.mrow{
+    display: flex;
+    align-items:flex-start;
+}
+.mrow > img{
+    width: 120px ;
+}
+.fa-sun {
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 18px;
+    font-size: 28px;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+ .iconset *{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+.fa-plus{
+    margin-top: 10px;
+    /* background-color: rgba(255, 255, 255, 0.25); */
+    color: white;
+    padding: 13px;
+    font-size: 10px;
+    border-radius: 9px;
+    border: 2px dotted whitesmoke;
+}
+.whitespace{
+    margin: 6px ;
+}
+.city{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 9px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.txtInfo{
+    display: inline-block; 
+    width:50px;
+}
