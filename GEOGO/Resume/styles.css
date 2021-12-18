@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    font-family: Roboto , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.main{
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info{
+    display: flex;
+    background-color: rgb(222, 250, 253);
+}
+.header{
+    padding: 20px 40px;
+    color: aliceblue;
+    background-color: rgb(34, 81, 112);
+}
+.header>h4{
+    color: rgb(10, 161, 154);
+}
+.contact{
+    padding: 20px 40px;
+    color: aliceblue;
+    background-color: rgb(11, 36, 53);
+}
+.left,.right{
+    width: 50%;
+    padding: 30px;
+}
+.interests>p,.skills>p{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px 5px;
+    background-color: rgb(83, 148, 192);
+    color: aliceblue;
+    border-radius: 5px;
+}
+/* .interests>p{
+    color: black;
+    background-color: transparent;
+} */
+i,ul{
+    font-weight: 500;
+}
+.info h1{
+    text-decoration: underline;
+    color: rgb(25, 102, 76);
+    margin: 10px 0px;
+}
